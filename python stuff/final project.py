@@ -348,5 +348,5 @@ if finalregion==midwest_points:
 if finalregion==pacific_west_points:
     print("You are from the Pacific region of the United States")
 
-t.goto(-200,-200)
+turtle.exitonclick()
 
