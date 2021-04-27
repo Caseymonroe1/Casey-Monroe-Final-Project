@@ -319,7 +319,6 @@ def mapcheck():
         pacificwestred()
         pacificwestcheck+=1
     finalregion=max(regionpointlist)
-    print(regionpointlist)
     
 ##function that checks the map for the region with lowest points and rules it out.
 question1()
@@ -338,12 +337,6 @@ question13()
 question14()
 question15()
 mapcheck()
-print(finalregion)
-print(South_points)
-print(northeast_points)
-print(midwest_points)
-print(west_points)
-print(pacific_west_points)
 if finalregion==northeast_points:
     print("You are from the Northeast region of the United States")
 if finalregion==South_points:
@@ -355,5 +348,5 @@ if finalregion==midwest_points:
 if finalregion==pacific_west_points:
     print("You are from the Pacific region of the United States")
 
-t.goto(-150,-150)
+t.goto(-200,-200)
 
